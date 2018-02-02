@@ -1,0 +1,7 @@
+*{
+	margin: 0; 	/* body-8px(清楚本身的默认样式) */
+	text-decoration: none;    /* 清除a标签的下划线 */
+	font-style: normal;
+	padding: 0;
+	list-style: none;        /* 清除列表样式 */
+}
