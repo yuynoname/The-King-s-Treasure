@@ -135,9 +135,9 @@
 	float: left;
 	padding: 0 10px;
 	cursor:pointer;                     /* 光标样式 */
-}                          
+}  
+
 .sousuo{
-	border: 1px solid #E0E0E0;
 	width: 294px;
 	height: 48px;
 	float: right;
@@ -368,6 +368,7 @@
 	padding-top: 39px;
 	float: left;
 	margin-right: 14px;
+	transition:all 0.3s linear;
 }
 .danpin_item img{
 	width: 160px;
@@ -481,6 +482,7 @@
 	height: 614px;
 	float: left;
 	cursor: pointer;
+	transition:all 0.3s linear;
 }
 .zhineng_tupian_right{
 	width: 992px;
@@ -518,6 +520,7 @@
 	margin-left: 14px;
 	position: relative;
 	overflow: hidden;
+	transition:all 0.3s linear;
 }
 .zhineng_tupian_right_xiaotu1{
 	margin-top: 14px;
@@ -660,6 +663,7 @@
 	margin-left: 14px;
 	position: relative;
 	overflow: hidden;
+	transition:all 0.3s linear;
 }
 
 .dapei_tan{
@@ -722,10 +726,12 @@
 	width: 234px;
 	height: 300px;
 	margin-top: 14px;
+	transition:all 0.3s linear;
 }
 .dapei_tupian_left_top {
 	width: 234px;
 	height: 300px;
+	transition:all 0.3s linear;
 }
 .dapei_tupian_left_top1 img{
 	width: 234px;
@@ -777,6 +783,7 @@
 	height: 415px;
 	float: left;
 	background-color: white;
+	transition:all 0.3s linear;
 }
 .reping_zuotu{
 	width: 296px;
@@ -1079,6 +1086,7 @@
 	float: left;
 	position:relative;
 	background-color: white;
+	transition:all 0.3s linear;
 }
 .shipin_zuotu{
 	width: 296px;
@@ -1174,6 +1182,7 @@
     background: #fff;
     text-align: center;
     position:relative;
+    transition:all 0.3s linear;
 }
 .jiantou{
 	width: 20px;
@@ -1288,4 +1297,54 @@
 }
 .quan4{
 	background-color: #fff;
+}
+
+.xuangou_right_tu:hover{
+	box-shadow: 0 2px 15px #DCDCDC;
+}
+.zhineng_tupian_left img:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.zhineng_tupian_right_xiaotu:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.dapei_tupian_left_top:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.dapei_tupian_left_top1:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.dapei_tupian_right_xiaotu:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.danpin_item:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.reping_zuo:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.neirong_item:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+.shipin_zuo:hover{
+	box-shadow: 0px 2px 15px #DCDCDC;
+	transform:translateY(-10px);
+}
+#sousuokuang{
+	width: 241px;
+	height: 46px;
+	float: left;
+}
+#sousuojian{
+	width: 49px;
+	height: 50px;
+	float: left;
 }
